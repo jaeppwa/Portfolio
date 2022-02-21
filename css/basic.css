@@ -14,7 +14,7 @@
 .blind{
     display: none;
 }
-
+.mobil{display:none}
 ul:after{
     display:block; 
     content: "";
@@ -72,6 +72,7 @@ header{width:100%;}
  
 }
 .effectbox>div{
+    transition: 0.5s;
     position: absolute;
 }
 .effectbox img{

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@media (max-width:1024px){
+
+.juce{
+    opacity: 0;
+    transition: 1s;}
+  .leef{
+        top:50%;
+        left:60%;
+        transform: rotate(15deg);
+    }
+    .leef img{
+        width:500px;
+        height:600px;
+    
+    }
+    .cake2 img{
+       display:none;
+       transition: 1s;
+    }
+    .cake3{left:5%;}
+    .cake3 img{
+        width:150px; 
+        height:150px;
+    }
+    .watermel{
+  
+        top:5%;
+        left:3%;
+        z-index: 10;
+    }
+    .el {
+        top:3%;
+        left:0%;
+        z-index: 11;
+    
+    }
+    .tv{
+        left:10%;
+        transform:rotateY(180deg);
+        width:50%; 
+        height:50%;
+    }
+    .tv_hinter{
+        bottom:15%; 
+        right:30%;
+        z-index: 100;
+    }
+    .title{
+        top:30%;
+    }
+    .profile{
+        transition: 1s;
+        top:100px;
+        left:2%;
+        position: absolute;
+        text-align: center;}
+    
+        body .wrap{
+            top:0;
+            transform:rotate(0deg) translate(-50%);
+        } 
+        body .wrap h2{
+            font-size: 40px;;
+        }
+        .media{
+            left:80%;
+        }
+        .media a img{
+            width:30%; 
+            height:30%;}
+            .intro_list li{
+                font-size: 15px;
+            }
+            .education li{
+                font-size: 13px;
+            }
+            .licen li{
+                font-size: 13px;;
+            }
+            .fp-controlArrow.fp-prev{
+                left:0; 
+                transition:1s;
+            }
+            .fp-controlArrow.fp-next{
+                right:20px;
+                transition: 1s;
+            }
+            .det_img{
+                width:100%; 
+                right:0; 
+                left:0;
+              
+            }
+            .pc{display:none;}
+            .mobil{display:block;
+            transition: 1s;}
+            .det_img img{
+              background-size: 50% 50%;
+            object-fit: contain;
+              
+            }
+            .jeju{display:none;}
+            .txt.day{
+                top:20%;
+                left:66%;
+                transition: 1s;
+            }
+            .mywork h2{
+                transition: 1s;
+                padding-top: 100px;
+                margin-bottom: 100px;;}
+                .txt{
+                   top:2%;
+                   left:7%;
+                   transition: 0.5s;
+                   padding:30px;
+                    background:rgba(48, 48, 48, 0.391);
+                    border-radius: 10px;
+                }
+           
+
+}
