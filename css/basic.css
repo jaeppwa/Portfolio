@@ -523,6 +523,7 @@ transition:1s}
     font-size:17px;
     
 }
+.contact li a{color:#fff}
 
 @keyframes immer {
     0%{transform: rotateY(0);}
