@@ -15,6 +15,7 @@
     display: none;
 }
 .mobil{display:none}
+.m_menu{display:none;}
 ul:after{
     display:block; 
     content: "";
@@ -515,7 +516,7 @@ transition:1s}
 .footimg{
     background-image:url("../img/footimg.jpg");
     background-attachment: fixed;
-    background-position: 50% 50%/cover;
+    background-position: 50% 50%/contain;
 }
 .footimg p{
     text-align: center;

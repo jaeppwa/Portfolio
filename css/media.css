@@ -119,6 +119,232 @@
                     background:rgba(48, 48, 48, 0.391);
                     border-radius: 10px;
                 }
-           
+               
+       
 
 }
+
+@media(max-width:820px){
+    #menu{width:100%;}
+   .title h1{
+       font-size:40px;
+       z-index: 1000;
+   }
+   .watermel{z-index: 1;}
+   .intro_in_w{
+       left:40%;
+   }
+
+    .txt a{
+        font-size:13px;
+        margin-right: 0;
+    }
+   body .wrap{width:350px;}
+   body .wrap h2{font-size:35px;}
+   .box{
+       left:40%;
+       transition: 1s;
+   }
+   .contact{
+       width:750px;
+       transition:1s;
+   }
+   .w_man{background-size: 150px 200px;
+       width:150px;
+       top:50%; 
+       height:200px;
+       transition: 1s;
+   }
+   .footer{width:600px;}
+   .txt h3{font-size: 18px;}
+   .txt p{
+       font-size: 13px;
+   }
+   
+}
+@media(max-width:620px){
+    .title{
+        top:50%;
+    }
+    .mywork h2{font-size:30px;}
+    .leef{display:none;}
+    .cake3{
+        left:70%;
+        transition: 1s;
+    }
+    .round{
+       transition: 1s;
+       display: none;
+    }
+    .border{
+        display:none;
+        transition: 1s;
+    }
+    .profile {
+        left:-3%;
+    }
+    .box{width:50%;}              
+    .box h3{font-size: 13px;}
+    
+    .txt a{margin-bottom:15px;}
+    .txt.day,.txt{
+        text-align: center;
+        top:0;
+        bottom:200px;
+        left:0;
+        border-radius:0px;
+    }
+    .txt h3{
+        margin-top:180px;
+        margin-bottom: 15px;
+    }
+    .txt a{margin-bottom:15px;}
+    .txt{padding:20px;
+    width:230px;}
+    .contact{width:500px;}
+    .footer{width:450px;}
+    .box{left:45%;}
+}
+@media(max-width:375px){
+    #menu{
+      
+        }
+    .headerIn{display:none;}
+    .m_menu{
+        position:relative;
+        position:fixed;
+        z-index: 10;
+        width:360px;
+        height:50px;
+        display:block}
+        .ham{
+            position: absolute;
+            top:-30px;
+            left:75%;
+            position: relative;
+            display:inline-block;
+            width:25px; 
+            height:25px;}
+        .btn{
+            position: relative;
+            display:inline-block;
+            width:20px; 
+            height:2px; 
+            background-color: #fff;;
+        }
+        .btn::before, .btn::after{
+            position: absolute;
+            display:block;
+            content: "";
+            clear:both; 
+            width:20px; 
+            height:2px; 
+            background-color: #fff;;
+    }
+    .btn::before{top: -8px;}
+    .btn::after{top: 8px;}
+    .btn.on{
+        background-color: transparent;
+    }
+    .btn.on::before{
+        margin-top:10px;
+        transition: 1s;
+        transform: rotate(-45deg);
+    }
+    .btn.on::after{
+        margin-top:-6px;
+        transition: 1s;
+        transform: rotate(45deg);
+    }
+    
+    .door{
+         display:none;
+        transition: 1s;
+}
+.watermel{
+    top:15%;
+    left:15%;}
+    .el{
+        left:0%;
+      
+    }
+    .el img{
+        width:300px;
+        height:300px;
+        transform: scale(0.85);
+    }
+    .cake3 {
+        z-index: 1;
+    }
+    .cake3 img{
+        width:90px;
+        height:90px;} 
+    
+    .tv_hinter{
+        color:#fff;
+        z-index: 1000;
+        left:8%;
+        bottom:10%;
+    }
+    .tv_hinter p{
+      
+        font-size: 13px;}
+    .profile img{
+      display: none;
+    } 
+    body .wrap{left:20%;}
+    .box{
+        width:85%;
+        left:15%;
+        top:30%;}
+        .mywork h2{
+        padding-top:70px;
+        margin-bottom:5px;
+        transition: 1s;}
+        
+        .footimg p{
+            margin-top:30px;
+            font-size: 13px;}
+        .contact{
+            width:200px;
+            top:20%;
+            flex-direction: column;}
+        .contact li{
+            margin-top:30px;
+        } 
+        .w_man{
+        background-size:100px 150px;
+        width:100px;
+        top:40%; 
+        height:150px;
+        transition: 1s;
+        }
+        .footer{width:250px; 
+        font-size: 10px;}
+        #side_bar{
+            display:none;
+            transition:1s;
+        }
+        #side_bar.on{
+        position:absolute;
+        display: block;
+        top:60px; 
+        right:0;
+        z-index: 1000;
+        padding:10px;
+        transition: 1s;
+        background-color: rgba(166, 169, 169, 0.371);
+        }
+        #side_bar.on li{margin:5px 0;}
+        #side_bar li a{
+                font-size: 12px; 
+                color:#fff;
+            }
+            #side_bar li a:hover{
+                color:rgb(253, 135, 135);
+            }
+            #s4{overflow: hidden;}
+            .footimg{
+                background-repeat: no-repeat;
+            }
+    }
