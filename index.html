@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/animateh2_style.css">
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/career.css">
+    <link rel="stylesheet" href="css/media.css">
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/prefixfree.jquery.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
@@ -40,7 +41,6 @@
     <main id="fullpage">
         <!--움직이는 메인이미지  start-->
         <section class="section mainimg" id="s1">
-            
             <div class="effectbox">
                 <div class="title wow  animate__animated animate__fadeInDown">
                     <h1 class="">
@@ -77,9 +77,6 @@
                     </div>
                     <div class="juce ">
                         <a href="#"><img src="img/el.png" alt="주스" class="" width="300px;" height="300px;"></a>
-                    </div>
-                    <div class="cake">
-                    
                     </div>
                     <div class="cake2 animate__animated animate__fadeInUp">
                         <img src="img/erd.png" alt="케이크" width="200px" height="200px">
@@ -152,7 +149,7 @@
           
         </div>
         
-      <div class="box ">
+      <div class="box">
         <h3 class="wow animate__animated animate__fadeInUp animate__delay-1s ">SKILL</h3>
         <ul class="intro_list ">
             <li>Photoshop</li>
@@ -216,7 +213,8 @@
                     <p>HTML과 CSS를 이용해 대구미술관 웹사이트를 <br>리뉴얼한 반응형 사이트입니다</p>
                    </div>
                    <div class="det_img wow animate__animated animate__fadeInUp animate__delay-1s">
-                       <img src="img/daegumuseum img.jpg" alt="대구미술관mokup" style="margin-left: 10%;">
+                       <img src="img/daegumuseum img.jpg" alt="대구미술관mokup" style="margin-left: 10%;" class="pc">
+                       <img src="img/daegumuseum img.jpg" alt="대구미술관mokup" class="mobil">
                    </div>
              </div>
             </div>
@@ -232,17 +230,18 @@
                         });
                     </script>
                     <p class="bot">HTML과 CSS, Jquery를 이용해 국립제주 박물관<br> 웹사이트를 리뉴얼한 프로젝트 입니다</p>
-                    <img src="img/jejumobil.jpg" alt="모바일버전용이미지" width="500px;" class="wow animate__animated animate__fadeInLeft animate__delay-3s"  style="margin-left:45%; margin-top: -5%;">
+                    <img src="img/jejumobil.jpg" alt="모바일버전용이미지" width="500px;" class="jeju wow animate__animated animate__fadeInLeft animate__delay-3s"  style="margin-left:45%; margin-top: -5%;">
                 </div>
                 <div  class="det_img totop">
-                    <img src="img/jeju.jpg" alt="pc_버전용" style="margin-left: 10%;">
+                    <img src="img/jeju.jpg" alt="pc_버전용" style="margin-left: 10%;"class="pc">
+                    <img src="img/jeju.jpg" alt="모바일_버전용" class="mobil">
                  
                 </div>
                </div>
             </div>
             <div class="slide">
-              <div class="slide_w">
-                <div class="txt">
+              <div class="slide_w ">
+                <div class="txt day">
                     <h3>DAYWALKER</h3>
                     <a href="https://jaeppwa.github.io/daywalker/" target="_blank">웹페이지</a>
                     <a href="#s3" class="mob3">반응형</a>
@@ -256,13 +255,14 @@
                     <p>HTML과 CSS, Jquery, 외부 플러그 인을 이용해 반응형 웹사이트를 <br>구현했습니다. </p>
                 </div>
                 <div  class="det_img ">
-                 <img src="img/daywalker.jpg" alt="" height="710px" style="margin-left: 20%;margin-top: -5%;">
+                 <img src="img/daywalker.jpg" alt="pc_버전용" height="710px" style="margin-left: 20%;margin-top: -5%;" class="pc">
+                 <img src="img/daywalker.jpg" alt="모바일_버전용" height="710px"class="mobil" style="object-fit: cover;" >
                 </div>
               </div>
             </div>
             <div class="slide">
                <div class="slide_w">
-                <div class="txt"> 
+                <div class="txt day"> 
                     <h3>삼양사 식품사업부</h3>
                     <a href="https://jaeppwa.github.io/samyang/" target="_blank">웹페이지</a>
                     <a href="#s3" class="mob4">반응형</a>
@@ -272,11 +272,12 @@
                         });
                     </script>
                     <p>Bootstrap 외부 플러그 인을 이용해 삼양 웹사이트와<br> 모바일 환경을 구현했습니다. </p>
-                    <img src="img/sam.gif" alt="" width="500px" height="415px" 
-                    style="margin-left:77%; margin-top: -25%;">   
+                    <img src="img/sam.gif" alt="pc_버전용" width="500px" height="415px" 
+                    style="margin-left:77%; margin-top: -25%;" class="pc">   
                 </div>
                 <div class="det_img" >
-                    <img src="img/boot.jpg" alt="mobil" width="648px" heigth="544px" style="margin-left:30%">
+                    <img src="img/boot.jpg" alt="mobil" width="648px" heigth="544px" style="margin-left:30%" class="pc">
+                    <img src="img/boot.jpg" alt="mobil" class="mobil">
                 </div>
                </div>
             </div>
@@ -538,7 +539,7 @@
                         <img src="img/portfolio photo/p_01.jpg" alt="대구미술관 이벤트 페이지 2022">
                         <div class="cover">
                             <p>대구미술관 이벤트 페이지 2022<br>
-                                
+                                </p>
                         </div>
                     </a>
                 </li>
@@ -561,7 +562,7 @@
                 </li>
                 <li class="all digi">
                     <a href="img/portfolio photo/p_04.jpg" data-fancybox="big"data-caption="대구미술관 이벤트 페이지 2022">
-                        <img src="img/portfolio photo/p_04.jpg" alt=">대구미술관 이벤트 페이지 2022">
+                        <img src="img/portfolio photo/p_04.jpg" alt="대구미술관 이벤트 페이지 2022">
                         <div class="cover">
                             <p>>대구미술관 이벤트 페이지 2022<br>
                                </p>
@@ -582,7 +583,7 @@
                         <img src="img/portfolio photo/page_02.JPG" alt="나무판 상세페이지 2021">
                         <div class="cover">
                             <p>나무판 상세페이지 2021<br>
-                              
+                              </p>
                         </div>
                     </a>
                 </li>
@@ -636,6 +637,9 @@
     <script src="js/wow.min.js"></script>
     <script>
       new WOW().init();
+    </script>
+    <script>
+        $(window).reload();
     </script>
     <script src="js/fullpage.js"></script>
     <script src="js/main.js"></script>
