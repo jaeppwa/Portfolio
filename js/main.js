@@ -1,12 +1,15 @@
 var myFullpage = new fullpage('#fullpage', {
-    menu: '#menu',
+    menu: '#menu, #side_bar',
     anchors: ['section1', 'section2', 'section3','section4','section5'],
     sectionsColor: ['#000', '#000', '#000','#000','#000'],
     autoScrolling: true,//스크롤바를 스크롤 하면 한페이지씩 넘어감 
     keyboardScrolling:false,
     verticalCentered: false,
     scrollBar: true,
-    navigation:true,  
+    navigation:true, 
+    normalScrollElements:'#s4',
+    
+     
 });
 
 
@@ -49,5 +52,9 @@ $(".tel").click(function(){
 $(".email").click(function(){
   $(".add").toggleClass("on")
 });
- 
+$(".btn").click(function(){
+ $(this).toggleClass("on"); 
+ $("#side_bar").toggleClass("on");
+});
+
  
