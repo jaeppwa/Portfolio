@@ -43,5 +43,11 @@ $('.thumb').isotope({
     e.preventDefault();
     fullpage_api.moveSectionDown();
 });
+$(".tel").click(function(){
+  $(".num").toggleClass("on")
+});
+$(".email").click(function(){
+  $(".add").toggleClass("on")
+});
  
  
