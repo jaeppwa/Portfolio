@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
 
 .myvideo{
     position:absolute;
@@ -9,6 +10,7 @@
     object-fit: contain;
 }
 .mywork h2{
+    font-family:'Josefin Sans', sans-serif;
     color: rgb(231, 105, 105);
     padding-top: 50px;;
     margin-left: 5%;
@@ -39,7 +41,7 @@
  .txt a{
     display: inline-block; 
     padding:10px;
-    border: 1px solid #fff;;
+    border: 1px solid rgba(128, 128, 128, 0.452);;
     margin-bottom:50px;
     margin-right: 20px;
     color:#fff;}
@@ -70,7 +72,7 @@
      }
      .footer{
         font-family: 'LeferiPoint-WhiteObliqueA';
-        font-size: 16px; 
+        font-size: 12px; 
      }
      .contact{font-size: 20px;}
      
@@ -90,4 +92,6 @@
         }
        
       }
-
+      em{
+          font-style: normal;
+        font-family:'LeferiPoint-WhiteObliqueA',sans-serif;}
