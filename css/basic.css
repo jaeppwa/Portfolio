@@ -79,6 +79,7 @@ header{width:100%;}
 .effectbox img{
  object-fit: contain;
 }
+
 .title{
     top:18%; 
     z-index: 10;
@@ -101,7 +102,10 @@ header{width:100%;}
     right:3%;
     z-index: 10;
 }
-
+.tv img{
+    width:70%; 
+    height:70%;
+}
 .tv:hover{
     opacity: 0;
     transition: 1s;
@@ -129,11 +133,19 @@ right:0;
     z-index: 11;
 
 }
+.el img{
+    width:500px; 
+    height:400px;
+}
 .watermel{
   
     top:15vh;
     left:10%;
     z-index: 10;
+}
+.watermel img{
+    width:50%; 
+    height:50%;
 }
 .watermel:hover .man{
     transform: rotateY(360deg);
@@ -151,11 +163,25 @@ right:0;
     top:0;
     left:3vw;
 }
+.juce img{
+    width:300px; 
+    height:300px;}
 
 .cake{
     z-index: 12;
     left:10vw;
     bottom:2vh;
+}
+.cake2 img{
+    width:200px; 
+    height:200px; 
+}
+.cake3 img{
+    width:300px;
+    height:300px;
+}
+.round img{
+    width:200px; 
 }
 .border{
     border-radius: 50%;;
@@ -167,6 +193,7 @@ right:0;
 
 }
 .round{
+    z-index: 3;
     right:10.5%;
     top:8%
 }
@@ -208,6 +235,10 @@ right:0;
      transition: 1s;
   
 
+}
+.media img{
+    width:20%; 
+    height:20%;
 }
 .media span::before{
    transform: rotate(45deg);
@@ -408,7 +439,7 @@ padding:7px 17px;
 border-radius: 0 0 10px 0 ;}
 nav>ul>li>a:hover, nav>ul>li>a.on{
     color:rgb(167, 80, 248);
-    background:rgb(0 0 0/20%);
+    background:rgba(0,0,0,0.2);
     
 }
 .all{width:20%;}
@@ -516,12 +547,17 @@ transition:1s}
 .footimg{
     background-image:url("../img/footimg.jpg");
     background-attachment: fixed;
-    background-position: 50% 50%/contain;
+    background-position: 50% 50%;
 }
 .footimg p{
     text-align: center;
     font-size:17px;
     
+}
+.jeju img{
+    width:500px;
+    margin-left:45%;
+    margin-top: -5%;
 }
 .contact li a{color:#fff}
 
